@@ -68,6 +68,7 @@ def test_author_has_contracts():
 
     assert author.contracts() == [contract]
 
+
 def test_author_has_books():
     """Test Author class has method books() that returns a list of its books"""
     author = Author("Name")
